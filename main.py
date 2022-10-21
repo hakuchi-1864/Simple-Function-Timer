@@ -21,8 +21,8 @@ def compute_fn_3(n, *, start = 1, end):
   return(n**i for i in range(start,end))
 
 # run functions to see results
-  
-  
+
+
     
 
    
