@@ -17,7 +17,9 @@ def compute_fn_1(n, *, start=0, end):
 def compute_fn_2(n, *, start = 1, end):
    return [n**i for i in range(start, end)] 
 
-def compute_fn_2(n, *, start = 1, end):
+def compute_fn_3(n, *, start = 1, end):
+  return(n**i for i in range(start,end))
+  
   
     
 
